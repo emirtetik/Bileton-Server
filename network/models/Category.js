@@ -2,7 +2,6 @@ const { default: mongoose } = require("mongoose");
 
 const CategorySchema = new mongoose.Schema(
   {
-    id: String,
     name: String,
     image: String,
   },
